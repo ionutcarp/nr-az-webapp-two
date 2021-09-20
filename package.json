@@ -1,0 +1,31 @@
+{
+  "name": "node-red-webapp",
+  "version": ".0.0",
+  "description": "A webapp wrapper for running node-red in an Azure Web App",
+  "main": "server.js",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "express": "^4.17.1",
+    "node-red": "2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ionutcarp/nr-az-webapp-two.git"
+  },
+  "keywords": [
+    "node-red",
+    "Azure"
+  ],
+  "author": "ionutcarp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ionutcarp/nr-az-webapp-two/issues"
+  },
+  "homepage": "https://github.com/ionutcarp/nr-az-webapp-two#readme",
+  "engines": {"node":">=14.15.1", "npm":">=6.14.8"}
+}
